@@ -31,7 +31,6 @@ body{
 }
 
 .menu-item1, .menu-item2, .menu-item3 {
-    /*border: 1px solid #ccc;*/
     float: left;
     background: #F6B319;
     margin: 10px 10px;
