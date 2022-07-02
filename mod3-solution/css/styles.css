@@ -32,6 +32,7 @@ body{
 
 .menu-item1, .menu-item2, .menu-item3 {
     /*border: 1px solid #ccc;*/
+    float: left;
     background: #F6B319;
     margin: 10px 10px;
 
@@ -59,12 +60,12 @@ h3{
 }
 
 /**** Small devices only ****/
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 768px) and (max-width: 991px){
     .menu-item1, .menu-item2 {
-        width: 47.5%;
-    } 
+        width: 47.0%; 
+    }
     .menu-item3 {
-        width: 97.0%;   
+        width: 96.0%;   
     }
 }
 
